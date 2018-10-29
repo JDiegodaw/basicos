@@ -6,7 +6,7 @@ public class BasicosJuanDiegoGomez {
 
    
     public static void main(String[] args) {
-       
+    cadenas();   
     }
     public static void cadenas (){
         
