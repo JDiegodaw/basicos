@@ -21,5 +21,15 @@ public class BasicosJuanDiegoGomez {
           System.out.println( x + " AND " + y + " = " + a2 );
           System.out.println( y + " AND " + x + " = " + a3 );
           System.out.println( y + " AND " + y + " = " + a4 );
+          
+          a1 = x || x;
+          a2 = x || y;
+          a3 = y || x;
+          a4 = y || y;
+          
+          System.out.println( x + " OR " + x + " = " + a1 );
+          System.out.println( x + " OR " + y + " = " + a2 );
+          System.out.println( y + " OR " + x + " = " + a3 );
+          System.out.println( y + " OR " + y + " = " + a4 );
     }
 }
